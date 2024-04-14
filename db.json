@@ -1,0 +1,42 @@
+{
+  "answers": [
+    {
+      "answer": "yes",
+      "forced": false,
+      "image": "https://yesno.wtf/assets/yes/1-2d8ba3ed220e93d1d2f6e4ed4b8cf138.gif"
+    },
+    {
+      "answer": "no",
+      "forced": false,
+      "image": "https://yesno.wtf/assets/no/22-8806dbccb1edf544723b7f095ff722e8.gif"
+    }
+  ],
+  "comics": [
+    {
+      "title": "Title of Comic 1",
+      "name": "Comic 1",
+      "image": "https://example.com/comic1.jpg",
+      "century": "19th"
+    },
+    {
+      "title": "Title of Comic 2",
+      "name": "Comic 2",
+      "image": "https://example.com/comic2.jpg",
+      "century": "21st"
+    }
+  ],
+  "games": [
+    {
+      "title": "Title of Game 1",
+      "name": "Game 1",
+      "image": "https://example.com/game1.jpg",
+      "century": "19th"
+    },
+    {
+      "title": "Title of Game 2",
+      "name": "Game 2",
+      "image": "https://example.com/game2.jpg",
+      "century": "21st"
+    }
+  ]
+}

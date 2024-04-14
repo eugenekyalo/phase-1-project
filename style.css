@@ -1,0 +1,54 @@
+/* Styles for the main content */
+.main {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+}
+
+/* Container for the input element */
+.interaction__container {
+    margin-top: 50px;
+}
+
+/* Styles for the input element */
+.input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* Adjust the width as needed */
+}
+
+/* Styles for the button element */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Example color, adjust as needed */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Error message styles */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Styles for the answer container */
+.answer {
+    margin-top: 20px;
+}
+
+/* Styles for the answer text */
+.answer p {
+    font-weight: bold;
+}
+
+/* Styles for the answer image */
+.answer img {
+    width: 100px;
+    height: auto;
+}

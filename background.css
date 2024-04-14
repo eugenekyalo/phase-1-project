@@ -1,0 +1,48 @@
+/* Background styles */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+    height: 100vh;
+}
+
+.stars, .twinkling, .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.stars {
+    background: transparent url('commics and games/Stars-NGC-290-Hubble-Space-Telescope.webp') repeat 0 0;
+    z-index: 0;
+}
+
+.twinkling {
+    background: transparent url('commics and games/black-night-sky-with-twinkling-stars-free-video.jpg') repeat 0 0;
+    z-index: 1;
+    opacity: 0.3;
+    animation: animate-twinkling 20s linear infinite;
+}
+
+.clouds {
+    background: transparent url('commics and games/sunset-sky-with-clouds-background-sunrise-sky-with-clouds-background_398492-4994.avif') repeat 0 0;
+    z-index: 2;
+    opacity: 0.3;
+    animation: animate-clouds 60s linear infinite;
+}
+
+@keyframes animate-twinkling {
+    0% { background-position: 0 0; }
+    100% { background-position: 10000px 0; }
+}
+
+@keyframes animate-clouds {
+    0% { background-position: 0 0; }
+    100% { background-position: 10000px 0; }
+}
